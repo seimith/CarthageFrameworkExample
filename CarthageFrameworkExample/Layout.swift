@@ -9,7 +9,7 @@
 import UIKit
 
 public class Layout {
-    static func setupConstraint (forView: UIView, top: Int?=nil, bottom: Int?=nil, left: Int?=nil, right: Int?=nil, height: Int?=nil, fixedHeight: Bool = false, width: Int?=nil, fixedWidth: Bool = false, selfView: UIViewController) {
+    public func setupConstraint (forView: UIView, top: Int?=nil, bottom: Int?=nil, left: Int?=nil, right: Int?=nil, height: Int?=nil, fixedHeight: Bool = false, width: Int?=nil, fixedWidth: Bool = false, selfView: UIViewController) {
         
         var parentViewController: UIView? {
             return selfView.view
